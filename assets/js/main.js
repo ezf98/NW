@@ -490,7 +490,7 @@ window.addEventListener("click", function (event) {
 
   // Delay hearts animation by 10 seconds
   setTimeout(() => {
-    setInterval(createHeart, 400);
+    setInterval(createHeart, 1000);
     animate();
   }, 10000);
 });
